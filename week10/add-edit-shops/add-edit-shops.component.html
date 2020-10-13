@@ -1,0 +1,59 @@
+<br>
+<br>
+<br>
+<h1>{{title}}</h1>
+<h3>Shop</h3>
+<div class="container">
+<form [formGroup]="shopForm" (ngSubmit)="save()"  #formDir="ngForm" novalidate >
+    <div class="form-group row">
+        <label class=" control-label col-md-12 ">Shop Name</label>
+        <div class="col-md-4">
+            <input class="form-control" type="text" formControlName="name" >
+        </div>
+        <span class="text-danger" *ngIf="name.invalid && formDir.submitted">
+            Shop Name is required.
+        </span>
+    </div>
+    <div class="form-group row">
+        <label class="control-label col-md-12" for="contactNumber">ContactNumber</label>
+        <div class="col-md-4">
+            <input class="form-control" type="text" formControlName="contactNumber" >
+        </div>
+        <span class="text-danger" *ngIf="contactNumber.invalid && formDir.submitted">
+            contactNumber is required
+        </span>
+    </div>
+    <div class="form-group row">
+        <label class="control-label col-md-12" for="address">Address</label>
+        <div class="col-md-4">
+            <input class="form-control" type="text" formControlName="address">
+        </div>
+        <span class="text-danger" *ngIf="address.invalid && formDir.submitted">
+            Address is required
+        </span>
+    </div>
+    <div class="form-group row">
+        <label class="control-label col-md-12" for="lat">Lat</label>
+        <div class="col-md-4">
+            <input class="form-control" type="number" formControlName="lat">
+        </div>
+        <span class="text-danger" *ngIf="lat.invalid && formDir.submitted">
+            Lat is required
+        </span>
+    </div>
+    <div class="form-group row">
+        <label class="control-label col-md-12" for="long">Long</label>
+        <div class="col-md-4">
+            <input class="form-control" type="number" formControlName="long">
+        </div>
+        <span class="text-danger" *ngIf="long.invalid && formDir.submitted">
+            long is required
+        </span>
+    </div>
+    
+    <div class="form-group">
+        <button type="submit" class="btn btn-success ">Save</button>
+        <button class="btn btn-secondary float-left"(click)="cancel()">Cancel</button>
+    </div>
+</form>
+</div>
