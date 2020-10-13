@@ -1,0 +1,9 @@
+D:\Project585\week12 exercise -ANDY\BLL\bin\Debug\netstandard2.0\BLL.deps.json
+D:\Project585\week12 exercise -ANDY\BLL\bin\Debug\netstandard2.0\BLL.dll
+D:\Project585\week12 exercise -ANDY\BLL\bin\Debug\netstandard2.0\BLL.pdb
+D:\Project585\week12 exercise -ANDY\BLL\obj\Debug\netstandard2.0\BLL.csprojAssemblyReference.cache
+D:\Project585\week12 exercise -ANDY\BLL\obj\Debug\netstandard2.0\BLL.AssemblyInfoInputs.cache
+D:\Project585\week12 exercise -ANDY\BLL\obj\Debug\netstandard2.0\BLL.AssemblyInfo.cs
+D:\Project585\week12 exercise -ANDY\BLL\obj\Debug\netstandard2.0\BLL.csproj.CoreCompileInputs.cache
+D:\Project585\week12 exercise -ANDY\BLL\obj\Debug\netstandard2.0\BLL.dll
+D:\Project585\week12 exercise -ANDY\BLL\obj\Debug\netstandard2.0\BLL.pdb
